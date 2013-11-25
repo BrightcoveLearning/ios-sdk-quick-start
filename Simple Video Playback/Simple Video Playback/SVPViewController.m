@@ -29,7 +29,7 @@
     
     // add the playback manager and facade
     self.manager = [BCOVPlayerSDKManager sharedManager];
-    self.facade = [self.manager newPlaybackFacadeWithFrame:self.view.frame];
+    self.facade = [self.manager createPlaybackFacadeWithFrame:self.view.frame];
     
     // turn on auto-advance
     self.facade.queue.autoAdvance = YES;
