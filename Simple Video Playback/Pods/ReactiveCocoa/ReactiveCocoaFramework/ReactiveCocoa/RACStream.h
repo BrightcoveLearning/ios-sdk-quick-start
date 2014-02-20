@@ -81,8 +81,8 @@ typedef RACStream * (^RACStreamBindBlock)(id value, BOOL *stop);
 
 /// Sets the name of the receiver to the given format string.
 ///
-/// This is for debugging purposes only, and won't do anything unless the DEBUG
-/// preprocessor macro is defined.
+/// This is for debugging purposes only, and won't do anything unless the
+/// RAC_DEBUG_SIGNAL_NAMES environment variable is set.
 ///
 /// Returns the receiver, for easy method chaining.
 - (instancetype)setNameWithFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1, 2);
@@ -103,7 +103,8 @@ typedef RACStream * (^RACStreamBindBlock)(id value, BOOL *stop);
 /// This corresponds to the `SelectMany` method in Rx.
 ///
 /// block - A block which accepts the values in the receiver and returns a new
-///         instance of the receiver's class. This block should not return `nil`.
+///         instance of the receiver's class. Returning `nil` from this block is
+///         equivalent to returning an empty signal.
 ///
 /// Examples
 ///

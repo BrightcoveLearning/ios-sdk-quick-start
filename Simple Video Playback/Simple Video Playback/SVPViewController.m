@@ -2,13 +2,10 @@
 //  SVPViewController.m
 //  Simple Video Playback
 //
-//  Created by Robert Crooks on 11/25/13.
-//  Copyright (c) 2013 Brightcove. All rights reserved.
+//  Created by Jeff T Doktor on 2/19/14.
+//  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-// import the View Controller header
 #import "SVPViewController.h"
 
 // import the SDK master header
@@ -23,26 +20,45 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// create an array of videos
-    NSArray *videos = @[
-                        [BCOVVideo videoWithURL:[NSURL URLWithString:@"http://cf9c36303a9981e3e8cc-31a5eb2af178214dc2ca6ce50f208bb5.r97.cf1.rackcdn.com/bigger_badminton_600.mp4"]],
-                        [BCOVVideo videoWithURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"]]
-                        ];
     
-    // add the playback manager and facade
-    self.manager = [BCOVPlayerSDKManager sharedManager];
-    self.facade = [self.manager createPlaybackFacadeWithFrame:self.view.frame];
+    // create an array of videos
+    NSArray *videos = @[
+        [BCOVVideo videoWithURL:[NSURL URLWithString:@"http://cf9c36303a9981e3e8cc-31a5eb2af178214dc2ca6ce50f208bb5.r97.cf1.rackcdn.com/bigger_badminton_600.mp4"]],
+        [BCOVVideo videoWithURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"]]
+        ];
+    
+    // add the playback controller
+    self.controller = [[BCOVPlayerSDKManager sharedManager] createPlaybackControllerWithViewStrategy:[self viewStrategy]];
+    self.controller.view.frame = self.view.bounds;
+    // create a playback controller delegate
+    self.controller.delegate = self;
+    
+    self.controller.view.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
+    // add the controller view as a subview of the SVPViewController's view
+    [self.view addSubview:self.controller.view];
     
     // turn on auto-advance
-    self.facade.queue.autoAdvance = YES;
+    self.controller.autoAdvance = YES;
+    // turn on auto-play
+    self.controller.autoPlay = YES;
     
-    // add the facade view as a subview of the SVPViewController's view
-    [self.view addSubview:self.facade.view];
-    
-    // add the video array to the facade's playback queue and play the first video
-    [self.facade setVideos:videos];
-    [self.facade advanceToNextAndPlay];
+    // add the video array to the controller's playback queue
+    [self.controller setVideos:videos];
+    // play the first video
+    [self.controller play];
+}
+
+- (id)viewStrategy
+{
+    // Most apps can create a playback controller with a `nil` view strategy,
+    // but for the purposes of this demo we use the stock controls.
+    return [[BCOVPlayerSDKManager sharedManager] defaultControlsViewStrategy];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end
-

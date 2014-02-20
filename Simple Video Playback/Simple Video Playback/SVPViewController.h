@@ -2,21 +2,17 @@
 //  SVPViewController.h
 //  Simple Video Playback
 //
-//  Created by Robert Crooks on 11/25/13.
-//  Copyright (c) 2013 Brightcove. All rights reserved.
+//  Created by Jeff T Doktor on 2/19/14.
+//  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-// forward references for facade protocol and video cloud manager classes
-@protocol BCOVPlaybackFacade;
-@class BCOVPlayerSDKManager;
+// import the SDK master header
+#import <BCOVPlayerSDK.h>
 
-@interface SVPViewController : UIViewController
+@interface SVPViewController : UIViewController <BCOVPlaybackControllerDelegate>
 
-// declare the facade and Video Cloud Manager properties
-@property (strong, nonatomic) id<BCOVPlaybackFacade> facade;
-@property (strong, nonatomic) BCOVPlayerSDKManager *manager;
+@property (strong, nonatomic) id<BCOVPlaybackController> controller;
 
 @end
-

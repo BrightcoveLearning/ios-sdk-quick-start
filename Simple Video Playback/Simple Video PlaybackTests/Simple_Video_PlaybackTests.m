@@ -2,8 +2,8 @@
 //  Simple_Video_PlaybackTests.m
 //  Simple Video PlaybackTests
 //
-//  Created by Robert Crooks on 11/25/13.
-//  Copyright (c) 2013 Brightcove. All rights reserved.
+//  Created by Jeff T Doktor on 2/19/14.
+//  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
