@@ -2,7 +2,7 @@
 //  SVPViewController.m
 //  Simple Video Playback
 //
-//  Created by Jeff T Doktor on 2/19/14.
+//  Created by Jeff T Doktor on 2/28/14.
 //  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 
@@ -20,12 +20,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+	
     // create an array of videos
     NSArray *videos = @[
-        [BCOVVideo videoWithURL:[NSURL URLWithString:@"http://cf9c36303a9981e3e8cc-31a5eb2af178214dc2ca6ce50f208bb5.r97.cf1.rackcdn.com/bigger_badminton_600.mp4"]],
-        [BCOVVideo videoWithURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"]]
-        ];
+                        [self videoWithURL:[NSURL URLWithString:@"http://cf9c36303a9981e3e8cc-31a5eb2af178214dc2ca6ce50f208bb5.r97.cf1.rackcdn.com/bigger_badminton_600.mp4"]],
+                        [self videoWithURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"]]
+                        ];
     
     // add the playback controller
     self.controller = [[BCOVPlayerSDKManager sharedManager] createPlaybackControllerWithViewStrategy:[self viewStrategy]];
@@ -46,6 +46,14 @@
     [self.controller setVideos:videos];
     // play the first video
     [self.controller play];
+    
+}
+
+- (BCOVVideo *)videoWithURL:(NSURL *)url
+{
+    // set the delivery method for BCOVSources that belong to a video
+    BCOVSource *source = [[BCOVSource alloc] initWithURL:url deliveryMethod:kBCOVSourceDeliveryHLS properties:nil];
+    return [[BCOVVideo alloc] initWithSource:source cuePoints:[BCOVCuePointCollection collectionWithArray:@[]] properties:@{}];
 }
 
 - (id)viewStrategy

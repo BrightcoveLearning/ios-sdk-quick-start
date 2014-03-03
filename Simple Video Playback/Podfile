@@ -1,4 +1,3 @@
 platform :ios, '7.0'
 
-pod 'Brightcove-Player-SDK', '~> 4.1.4'
-pod 'ReactiveCocoa', '~> 2.1'
+pod 'Brightcove-Player-SDK', '~> 4.1.5'
