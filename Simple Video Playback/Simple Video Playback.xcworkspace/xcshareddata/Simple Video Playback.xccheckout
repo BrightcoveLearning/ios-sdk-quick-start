@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>705CAF70-2C27-489A-8061-B72FACA708BE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Simple Video Playback</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29111BF7-27C9-4E3B-AF66-5E064BE52D42</key>
+		<string>https://github.com/BrightcoveLearning/ios-sdk-quick-start.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Simple Video Playback/Simple Video Playback.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29111BF7-27C9-4E3B-AF66-5E064BE52D42</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BrightcoveLearning/ios-sdk-quick-start.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29111BF7-27C9-4E3B-AF66-5E064BE52D42</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29111BF7-27C9-4E3B-AF66-5E064BE52D42</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-sdk-quick-start</string>
+		</dict>
+	</array>
+</dict>
+</plist>
