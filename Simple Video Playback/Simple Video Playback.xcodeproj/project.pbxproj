@@ -1,1135 +1,543 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>006C9379927A41248CA2D6E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F1918C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F2B18C0EF4700CD58F7</string>
-				<string>66F13F4D18C0EF4700CD58F7</string>
-				<string>66F13F2418C0EF4700CD58F7</string>
-				<string>66F13F2318C0EF4700CD58F7</string>
-				<string>006C9379927A41248CA2D6E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F1A18C0EF4700CD58F7</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>SVP</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Brightcove</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>66F13F4518C0EF4700CD58F7</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>66F13F2118C0EF4700CD58F7</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>66F13F1D18C0EF4700CD58F7</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>66F13F1918C0EF4700CD58F7</string>
-			<key>productRefGroup</key>
-			<string>66F13F2318C0EF4700CD58F7</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>66F13F2118C0EF4700CD58F7</string>
-				<string>66F13F4518C0EF4700CD58F7</string>
-			</array>
-		</dict>
-		<key>66F13F1D18C0EF4700CD58F7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>66F13F5518C0EF4700CD58F7</string>
-				<string>66F13F5618C0EF4700CD58F7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>66F13F1E18C0EF4700CD58F7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66F13F3618C0EF4700CD58F7</string>
-				<string>66F13F3218C0EF4700CD58F7</string>
-				<string>66F13F3F18C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66F13F1F18C0EF4700CD58F7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66F13F2818C0EF4700CD58F7</string>
-				<string>66F13F2A18C0EF4700CD58F7</string>
-				<string>66F13F2618C0EF4700CD58F7</string>
-				<string>B024A88DC1C1496BA9B42EB3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66F13F2018C0EF4700CD58F7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66F13F3C18C0EF4700CD58F7</string>
-				<string>66F13F4118C0EF4700CD58F7</string>
-				<string>66F13F3918C0EF4700CD58F7</string>
-				<string>66F13F3018C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66F13F2118C0EF4700CD58F7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>66F13F5718C0EF4700CD58F7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9B67CF79483F4B5B8EC68A2A</string>
-				<string>66F13F1E18C0EF4700CD58F7</string>
-				<string>66F13F1F18C0EF4700CD58F7</string>
-				<string>66F13F2018C0EF4700CD58F7</string>
-				<string>FD65A17670664565A0F37B9C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Simple Video Playback</string>
-			<key>productName</key>
-			<string>Simple Video Playback</string>
-			<key>productReference</key>
-			<string>66F13F2218C0EF4700CD58F7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>66F13F2218C0EF4700CD58F7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Simple Video Playback.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>66F13F2318C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F2218C0EF4700CD58F7</string>
-				<string>66F13F4618C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F2418C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F2518C0EF4700CD58F7</string>
-				<string>66F13F2718C0EF4700CD58F7</string>
-				<string>66F13F2918C0EF4700CD58F7</string>
-				<string>66F13F4718C0EF4700CD58F7</string>
-				<string>FC8AD84982884DEAB58D710A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F2518C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>66F13F2618C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F2518C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F2718C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>66F13F2818C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F2718C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F2918C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>66F13F2A18C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F2918C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F2B18C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F3418C0EF4700CD58F7</string>
-				<string>66F13F3518C0EF4700CD58F7</string>
-				<string>66F13F3718C0EF4700CD58F7</string>
-				<string>66F13F3A18C0EF4700CD58F7</string>
-				<string>66F13F3D18C0EF4700CD58F7</string>
-				<string>66F13F3E18C0EF4700CD58F7</string>
-				<string>66F13F4018C0EF4700CD58F7</string>
-				<string>66F13F2C18C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Simple Video Playback</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F2C18C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F2D18C0EF4700CD58F7</string>
-				<string>66F13F2E18C0EF4700CD58F7</string>
-				<string>66F13F3118C0EF4700CD58F7</string>
-				<string>66F13F3318C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F2D18C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Simple Video Playback-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F2E18C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F2F18C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F2F18C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3018C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F2E18C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F3118C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3218C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F3118C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F3318C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Simple Video Playback-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3418C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SVPAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3518C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SVPAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3618C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F3518C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F3718C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F3818C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3818C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3918C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F3718C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F3A18C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F3B18C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3B18C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3C18C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F3A18C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F3D18C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SVPViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3E18C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SVPViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F3F18C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F3E18C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F4018C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F4118C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F4018C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F4218C0EF4700CD58F7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66F13F5418C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66F13F4318C0EF4700CD58F7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66F13F4818C0EF4700CD58F7</string>
-				<string>66F13F4A18C0EF4700CD58F7</string>
-				<string>66F13F4918C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66F13F4418C0EF4700CD58F7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66F13F5218C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66F13F4518C0EF4700CD58F7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>66F13F5A18C0EF4700CD58F7</string>
-			<key>buildPhases</key>
-			<array>
-				<string>66F13F4218C0EF4700CD58F7</string>
-				<string>66F13F4318C0EF4700CD58F7</string>
-				<string>66F13F4418C0EF4700CD58F7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>66F13F4C18C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Simple Video PlaybackTests</string>
-			<key>productName</key>
-			<string>Simple Video PlaybackTests</string>
-			<key>productReference</key>
-			<string>66F13F4618C0EF4700CD58F7</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>66F13F4618C0EF4700CD58F7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Simple Video PlaybackTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>66F13F4718C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>66F13F4818C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F4718C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F4918C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F2518C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F4A18C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F2918C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F4B18C0EF4700CD58F7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>66F13F1A18C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>66F13F2118C0EF4700CD58F7</string>
-			<key>remoteInfo</key>
-			<string>Simple Video Playback</string>
-		</dict>
-		<key>66F13F4C18C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>66F13F2118C0EF4700CD58F7</string>
-			<key>targetProxy</key>
-			<string>66F13F4B18C0EF4700CD58F7</string>
-		</dict>
-		<key>66F13F4D18C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F5318C0EF4700CD58F7</string>
-				<string>66F13F4E18C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Simple Video PlaybackTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F4E18C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F4F18C0EF4700CD58F7</string>
-				<string>66F13F5018C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F4F18C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Simple Video PlaybackTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F5018C0EF4700CD58F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>66F13F5118C0EF4700CD58F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F5118C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F5218C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F5018C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F5318C0EF4700CD58F7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Simple_Video_PlaybackTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F13F5418C0EF4700CD58F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66F13F5318C0EF4700CD58F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66F13F5518C0EF4700CD58F7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>66F13F5618C0EF4700CD58F7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>66F13F5718C0EF4700CD58F7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>66F13F5818C0EF4700CD58F7</string>
-				<string>66F13F5918C0EF4700CD58F7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>66F13F5818C0EF4700CD58F7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>006C9379927A41248CA2D6E7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Simple Video Playback/Simple Video Playback-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Simple Video Playback/Simple Video Playback-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>VALID_ARCHS</key>
-				<string>armv7 armv7s</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>66F13F5918C0EF4700CD58F7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>006C9379927A41248CA2D6E7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD)</string>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Simple Video Playback/Simple Video Playback-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Simple Video Playback/Simple Video Playback-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>VALID_ARCHS</key>
-				<string>armv7 armv7s</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>66F13F5A18C0EF4700CD58F7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>66F13F5B18C0EF4700CD58F7</string>
-				<string>66F13F5C18C0EF4700CD58F7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>66F13F5B18C0EF4700CD58F7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Simple Video Playback.app/Simple Video Playback</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Simple Video Playback/Simple Video Playback-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Simple Video PlaybackTests/Simple Video PlaybackTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>66F13F5C18C0EF4700CD58F7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Simple Video Playback.app/Simple Video Playback</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Simple Video Playback/Simple Video Playback-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Simple Video PlaybackTests/Simple Video PlaybackTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9B67CF79483F4B5B8EC68A2A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>B024A88DC1C1496BA9B42EB3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC8AD84982884DEAB58D710A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC8AD84982884DEAB58D710A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FD65A17670664565A0F37B9C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>66F13F1A18C0EF4700CD58F7</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9F008DCF15451A9A487A50 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D018B1D7F1294035A9264284 /* libPods.a */; };
+		66160EDC18D11534003C3F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66160EDB18D11534003C3F50 /* Foundation.framework */; };
+		66160EDE18D11534003C3F50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66160EDD18D11534003C3F50 /* CoreGraphics.framework */; };
+		66160EE018D11534003C3F50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66160EDF18D11534003C3F50 /* UIKit.framework */; };
+		66160EE618D11534003C3F50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66160EE418D11534003C3F50 /* InfoPlist.strings */; };
+		66160EE818D11534003C3F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66160EE718D11534003C3F50 /* main.m */; };
+		66160EEC18D11534003C3F50 /* SVPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66160EEB18D11534003C3F50 /* SVPAppDelegate.m */; };
+		66160EEF18D11534003C3F50 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66160EED18D11534003C3F50 /* Main_iPhone.storyboard */; };
+		66160EF218D11534003C3F50 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66160EF018D11534003C3F50 /* Main_iPad.storyboard */; };
+		66160EF518D11534003C3F50 /* SVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66160EF418D11534003C3F50 /* SVPViewController.m */; };
+		66160EF718D11534003C3F50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66160EF618D11534003C3F50 /* Images.xcassets */; };
+		66160EFE18D11534003C3F50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66160EFD18D11534003C3F50 /* XCTest.framework */; };
+		66160EFF18D11534003C3F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66160EDB18D11534003C3F50 /* Foundation.framework */; };
+		66160F0018D11534003C3F50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66160EDF18D11534003C3F50 /* UIKit.framework */; };
+		66160F0818D11534003C3F50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66160F0618D11534003C3F50 /* InfoPlist.strings */; };
+		66160F0A18D11534003C3F50 /* Simple_Video_PlaybackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66160F0918D11534003C3F50 /* Simple_Video_PlaybackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66160F0118D11534003C3F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66160ED018D11534003C3F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66160ED718D11534003C3F50;
+			remoteInfo = "Simple Video Playback";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66160ED818D11534003C3F50 /* Simple Video Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Video Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66160EDB18D11534003C3F50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66160EDD18D11534003C3F50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66160EDF18D11534003C3F50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66160EE318D11534003C3F50 /* Simple Video Playback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Video Playback-Info.plist"; sourceTree = "<group>"; };
+		66160EE518D11534003C3F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66160EE718D11534003C3F50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66160EE918D11534003C3F50 /* Simple Video Playback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Video Playback-Prefix.pch"; sourceTree = "<group>"; };
+		66160EEA18D11534003C3F50 /* SVPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVPAppDelegate.h; sourceTree = "<group>"; };
+		66160EEB18D11534003C3F50 /* SVPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVPAppDelegate.m; sourceTree = "<group>"; };
+		66160EEE18D11534003C3F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		66160EF118D11534003C3F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		66160EF318D11534003C3F50 /* SVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVPViewController.h; sourceTree = "<group>"; };
+		66160EF418D11534003C3F50 /* SVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVPViewController.m; sourceTree = "<group>"; };
+		66160EF618D11534003C3F50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66160EFC18D11534003C3F50 /* Simple Video PlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Video PlaybackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66160EFD18D11534003C3F50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66160F0518D11534003C3F50 /* Simple Video PlaybackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Video PlaybackTests-Info.plist"; sourceTree = "<group>"; };
+		66160F0718D11534003C3F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66160F0918D11534003C3F50 /* Simple_Video_PlaybackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Video_PlaybackTests.m; sourceTree = "<group>"; };
+		D018B1D7F1294035A9264284 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5E4987298A4EB89E7CCB9F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66160ED518D11534003C3F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66160EDE18D11534003C3F50 /* CoreGraphics.framework in Frameworks */,
+				66160EE018D11534003C3F50 /* UIKit.framework in Frameworks */,
+				66160EDC18D11534003C3F50 /* Foundation.framework in Frameworks */,
+				0A9F008DCF15451A9A487A50 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66160EF918D11534003C3F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66160EFE18D11534003C3F50 /* XCTest.framework in Frameworks */,
+				66160F0018D11534003C3F50 /* UIKit.framework in Frameworks */,
+				66160EFF18D11534003C3F50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66160ECF18D11534003C3F50 = {
+			isa = PBXGroup;
+			children = (
+				66160EE118D11534003C3F50 /* Simple Video Playback */,
+				66160F0318D11534003C3F50 /* Simple Video PlaybackTests */,
+				66160EDA18D11534003C3F50 /* Frameworks */,
+				66160ED918D11534003C3F50 /* Products */,
+				EF5E4987298A4EB89E7CCB9F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		66160ED918D11534003C3F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66160ED818D11534003C3F50 /* Simple Video Playback.app */,
+				66160EFC18D11534003C3F50 /* Simple Video PlaybackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66160EDA18D11534003C3F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66160EDB18D11534003C3F50 /* Foundation.framework */,
+				66160EDD18D11534003C3F50 /* CoreGraphics.framework */,
+				66160EDF18D11534003C3F50 /* UIKit.framework */,
+				66160EFD18D11534003C3F50 /* XCTest.framework */,
+				D018B1D7F1294035A9264284 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66160EE118D11534003C3F50 /* Simple Video Playback */ = {
+			isa = PBXGroup;
+			children = (
+				66160EEA18D11534003C3F50 /* SVPAppDelegate.h */,
+				66160EEB18D11534003C3F50 /* SVPAppDelegate.m */,
+				66160EED18D11534003C3F50 /* Main_iPhone.storyboard */,
+				66160EF018D11534003C3F50 /* Main_iPad.storyboard */,
+				66160EF318D11534003C3F50 /* SVPViewController.h */,
+				66160EF418D11534003C3F50 /* SVPViewController.m */,
+				66160EF618D11534003C3F50 /* Images.xcassets */,
+				66160EE218D11534003C3F50 /* Supporting Files */,
+			);
+			path = "Simple Video Playback";
+			sourceTree = "<group>";
+		};
+		66160EE218D11534003C3F50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66160EE318D11534003C3F50 /* Simple Video Playback-Info.plist */,
+				66160EE418D11534003C3F50 /* InfoPlist.strings */,
+				66160EE718D11534003C3F50 /* main.m */,
+				66160EE918D11534003C3F50 /* Simple Video Playback-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66160F0318D11534003C3F50 /* Simple Video PlaybackTests */ = {
+			isa = PBXGroup;
+			children = (
+				66160F0918D11534003C3F50 /* Simple_Video_PlaybackTests.m */,
+				66160F0418D11534003C3F50 /* Supporting Files */,
+			);
+			path = "Simple Video PlaybackTests";
+			sourceTree = "<group>";
+		};
+		66160F0418D11534003C3F50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66160F0518D11534003C3F50 /* Simple Video PlaybackTests-Info.plist */,
+				66160F0618D11534003C3F50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66160ED718D11534003C3F50 /* Simple Video Playback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66160F0D18D11534003C3F50 /* Build configuration list for PBXNativeTarget "Simple Video Playback" */;
+			buildPhases = (
+				4743AC46A0D94F429F75A549 /* Check Pods Manifest.lock */,
+				66160ED418D11534003C3F50 /* Sources */,
+				66160ED518D11534003C3F50 /* Frameworks */,
+				66160ED618D11534003C3F50 /* Resources */,
+				2CBE8C28E8E14CD1BB2605B5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Video Playback";
+			productName = "Simple Video Playback";
+			productReference = 66160ED818D11534003C3F50 /* Simple Video Playback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66160EFB18D11534003C3F50 /* Simple Video PlaybackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66160F1018D11534003C3F50 /* Build configuration list for PBXNativeTarget "Simple Video PlaybackTests" */;
+			buildPhases = (
+				66160EF818D11534003C3F50 /* Sources */,
+				66160EF918D11534003C3F50 /* Frameworks */,
+				66160EFA18D11534003C3F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66160F0218D11534003C3F50 /* PBXTargetDependency */,
+			);
+			name = "Simple Video PlaybackTests";
+			productName = "Simple Video PlaybackTests";
+			productReference = 66160EFC18D11534003C3F50 /* Simple Video PlaybackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66160ED018D11534003C3F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SVP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Brightcove;
+				TargetAttributes = {
+					66160EFB18D11534003C3F50 = {
+						TestTargetID = 66160ED718D11534003C3F50;
+					};
+				};
+			};
+			buildConfigurationList = 66160ED318D11534003C3F50 /* Build configuration list for PBXProject "Simple Video Playback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66160ECF18D11534003C3F50;
+			productRefGroup = 66160ED918D11534003C3F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66160ED718D11534003C3F50 /* Simple Video Playback */,
+				66160EFB18D11534003C3F50 /* Simple Video PlaybackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66160ED618D11534003C3F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66160EF218D11534003C3F50 /* Main_iPad.storyboard in Resources */,
+				66160EF718D11534003C3F50 /* Images.xcassets in Resources */,
+				66160EEF18D11534003C3F50 /* Main_iPhone.storyboard in Resources */,
+				66160EE618D11534003C3F50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66160EFA18D11534003C3F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66160F0818D11534003C3F50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CBE8C28E8E14CD1BB2605B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4743AC46A0D94F429F75A549 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66160ED418D11534003C3F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66160EEC18D11534003C3F50 /* SVPAppDelegate.m in Sources */,
+				66160EE818D11534003C3F50 /* main.m in Sources */,
+				66160EF518D11534003C3F50 /* SVPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66160EF818D11534003C3F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66160F0A18D11534003C3F50 /* Simple_Video_PlaybackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66160F0218D11534003C3F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66160ED718D11534003C3F50 /* Simple Video Playback */;
+			targetProxy = 66160F0118D11534003C3F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66160EE418D11534003C3F50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66160EE518D11534003C3F50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66160EED18D11534003C3F50 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66160EEE18D11534003C3F50 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		66160EF018D11534003C3F50 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66160EF118D11534003C3F50 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		66160F0618D11534003C3F50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66160F0718D11534003C3F50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66160F0B18D11534003C3F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66160F0C18D11534003C3F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66160F0E18D11534003C3F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5E4987298A4EB89E7CCB9F /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Video Playback/Simple Video Playback-Prefix.pch";
+				INFOPLIST_FILE = "Simple Video Playback/Simple Video Playback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66160F0F18D11534003C3F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5E4987298A4EB89E7CCB9F /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Video Playback/Simple Video Playback-Prefix.pch";
+				INFOPLIST_FILE = "Simple Video Playback/Simple Video Playback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66160F1118D11534003C3F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Video Playback.app/Simple Video Playback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Video Playback/Simple Video Playback-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple Video PlaybackTests/Simple Video PlaybackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66160F1218D11534003C3F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Video Playback.app/Simple Video Playback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Video Playback/Simple Video Playback-Prefix.pch";
+				INFOPLIST_FILE = "Simple Video PlaybackTests/Simple Video PlaybackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66160ED318D11534003C3F50 /* Build configuration list for PBXProject "Simple Video Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66160F0B18D11534003C3F50 /* Debug */,
+				66160F0C18D11534003C3F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66160F0D18D11534003C3F50 /* Build configuration list for PBXNativeTarget "Simple Video Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66160F0E18D11534003C3F50 /* Debug */,
+				66160F0F18D11534003C3F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66160F1018D11534003C3F50 /* Build configuration list for PBXNativeTarget "Simple Video PlaybackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66160F1118D11534003C3F50 /* Debug */,
+				66160F1218D11534003C3F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66160ED018D11534003C3F50 /* Project object */;
+}
