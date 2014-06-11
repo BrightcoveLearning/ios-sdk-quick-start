@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "66160ED718D11534003C3F50"
+               BlueprintIdentifier = "66511D1C1948DED4000E18EC"
                BuildableName = "Simple Video Playback.app"
                BlueprintName = "Simple Video Playback"
                ReferencedContainer = "container:Simple Video Playback.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "66160EFB18D11534003C3F50"
+               BlueprintIdentifier = "66511D401948DED4000E18EC"
                BuildableName = "Simple Video PlaybackTests.xctest"
                BlueprintName = "Simple Video PlaybackTests"
                ReferencedContainer = "container:Simple Video Playback.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "66160ED718D11534003C3F50"
+            BlueprintIdentifier = "66511D1C1948DED4000E18EC"
             BuildableName = "Simple Video Playback.app"
             BlueprintName = "Simple Video Playback"
             ReferencedContainer = "container:Simple Video Playback.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "66160ED718D11534003C3F50"
+            BlueprintIdentifier = "66511D1C1948DED4000E18EC"
             BuildableName = "Simple Video Playback.app"
             BlueprintName = "Simple Video Playback"
             ReferencedContainer = "container:Simple Video Playback.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "66160ED718D11534003C3F50"
+            BlueprintIdentifier = "66511D1C1948DED4000E18EC"
             BuildableName = "Simple Video Playback.app"
             BlueprintName = "Simple Video Playback"
             ReferencedContainer = "container:Simple Video Playback.xcodeproj">

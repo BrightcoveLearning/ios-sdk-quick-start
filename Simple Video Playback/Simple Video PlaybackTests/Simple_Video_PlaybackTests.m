@@ -2,7 +2,7 @@
 //  Simple_Video_PlaybackTests.m
 //  Simple Video PlaybackTests
 //
-//  Created by Jeff Doktor on 3/12/14.
+//  Created by Jeff T Doktor on 6/11/14.
 //  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  SVPViewController.m
 //  Simple Video Playback
 //
-//  Created by Jeff Doktor on 3/12/14.
+//  Created by Jeff Doktor on 6/11/14.
 //  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 
@@ -20,12 +20,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+	// Do any additional setup after loading the view, typically from a nib.
     // create an array of videos
     NSArray *videos = @[
-                        [self videoWithURL:[NSURL URLWithString:@"http://cf9c36303a9981e3e8cc-31a5eb2af178214dc2ca6ce50f208bb5.r97.cf1.rackcdn.com/bigger_badminton_600.mp4"]],
-                        [self videoWithURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"]]
-                        ];
+        [self videoWithURL:[NSURL URLWithString:@"http://cf9c36303a9981e3e8cc-31a5eb2af178214dc2ca6ce50f208bb5.r97.cf1.rackcdn.com/bigger_badminton_600.mp4"]],
+        [self videoWithURL:[NSURL URLWithString:@"http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8"]]
+    ];
     
     // add the playback controller
     self.controller = [[BCOVPlayerSDKManager sharedManager] createPlaybackControllerWithViewStrategy:[self viewStrategy]];
